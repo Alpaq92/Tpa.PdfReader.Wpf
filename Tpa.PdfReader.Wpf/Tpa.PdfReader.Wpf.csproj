@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>disabled</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+      <PackageReference Include="morelinq" Version="4.4.0" />
+      <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="28.1.41" />
+    </ItemGroup>
+
+</Project>
